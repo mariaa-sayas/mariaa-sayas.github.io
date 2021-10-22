@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Web</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--navegador-->
+<header class="cd-auto-hide-header">
+	<div class="logo"><a href="#0"><img src="imgs/LOGO-v.png" alt="Logo"></a></div>
+
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+				Menu
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="video.html">Videos</a></li>
+			<li><a href="galeria.html">Galeria</a></li>
+			<li><a href="contacto.html">Contáctanos</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+
+
+
+
+<div class="title">
+  <h1>VIDEOS</h1>
+</div>
+
+<!--video-->
+<div class="containeruno">
+
+<div class="itemuno">
+  <div class="video-responsive">
+  <iframe  src="https://www.youtube.com/embed/nqzCp4HnShk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="caja__1">
+  <h2>Trucos Dibujo Digital</h2>
+  </div>
+</div> 
+
+<div class="itemuno">
+  <div class="video-responsive">
+  <iframe  src="https://www.youtube.com/embed/rLi3V4ZYDFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+  </div>
+  <div class="caja__1">
+  <h2>10 Trucos para dibujar fácil en Illustrator</h2>
+  </div>
+</div>
+</div>
+
+
+<div class="container">
+
+<div class="itemuno">
+  <div class="video-responsive">
+  <iframe  src="https://www.youtube.com/embed/gwStXDw6uNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="caja__1">
+  <h2>Ilustración Estilo Grime</h2>
+</div>
+</div>
+
+<div class="itemuno">
+  <div class="video-responsive">
+  <iframe  src="https://www.youtube.com/embed/Sc9LeMDLQtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="caja__1">
+  <h2>Dibujo Digital - 10 trucos para principiantes</h2>
+  </div>
+</div> 
+
+</div>
+
+
+<div class="container">
+
+<div class="itemuno">
+  <div class="video-responsive">
+  <iframe  src="https://www.youtube.com/embed/tGYXZcsaY1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+  </div>
+  <div class="caja__1">
+    <h2>Ilustra creando tus propias Texturas y Pinceles </h2>
+  </div>
+</div>
+  
+    
+<div class="itemuno">
+  <div class="video-responsive">
+  <iframe src="https://www.youtube.com/embed/L69YY9W-DIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="caja__1">
+    <h2>Herramientas de Illustrator</h2>
+  </div>
+</div>
+  
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Javascript-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+	
+<!--fin slider-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+</body>
+</html>

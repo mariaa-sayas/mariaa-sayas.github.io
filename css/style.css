@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  }
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
+
+/*slider*/
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 60px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+  }
+  
+
+.galeria {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 50px 30px 20px 30px ;
+  padding: 15px;
+  border-top: 1px solid black ;
+  border-bottom: 1px solid black ;
+}
+
+.galeriauno{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 50px 30px 20px 30px;
+  padding: 15px;
+  border-top: 1px solid black ;
+  border-bottom: 1px solid black ;
+
+}
+
+.item{
+  padding: 20px 25px 20px 25px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.container {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left:30px ;
+  margin-right:30px ;
+}
+
+
+.containeruno {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left:30px ;
+  margin-right:30px ;
+  margin-top: 50px;
+}
+
+
+.itemuno{
+  padding: 20px 25px 35px 25px;
+  margin-bottom: 25px;
+  flex-grow: 1;
+  flex-basis: 0;
+  
+}
+
+h2 {
+  text-align: center;
+  color: deeppink;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.title{
+ 
+  margin-top: 110px;
+  margin-bottom: 20px;
+  border-bottom: 2px dotted black ;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+h1{
+  text-align: center;
+  color: darkcyan;
+  font-family: 'Arima Madurai', cursive;
+  padding-bottom: 15px;
+  
+}
+
+
+
+form {
+  /* Centrar el formulario en la página */
+  margin: auto;
+  width: 500px;
+  /* Esquema del formulario */
+  padding: 4em;
+  border-radius: 2em;
+  background-color: rgb(219, 157, 243);
+}
+
+ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+}
+
+input,
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 25px sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 250px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 2px solid hotpink;
+}
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: rgb(0, 0, 0);
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: middle;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 8em;
+}
+
+.button {
+  /* Alinear los botones con los campos de texto */
+  padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+}
+
+button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: .5em;
+  margin-top: 10px;
+  font-size: 17px;
+  background-color: rgb(221, 241, 250);
+  border: 1px solid black;
+  padding: 7px;
+
+}
+
+.button :hover{
+  background-color:rgb(122, 161, 233);
+  border: transparent;
+}
